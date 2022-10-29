@@ -25,28 +25,28 @@ export let tarDecimals;
 
 let thetARContract = undefined;
 
-export async function txInfo() {
-  const txs = [
-    '8KIEY03eVHjzdnpQjbMDn-PO0CIc4AllQQPEpH8dSo8',
-    'MfcWJgngTpi3MnT683zSlrH_H0y24wP3Kt9Rthy8QeI',
-    'VYtreO_HjCyak7L2DmooBme4Ihi716-3_Gj3dlSq5RQ',
-  ]
-  let res = [];
+// export async function txInfo() {
+//   const txs = [
+//     '8KIEY03eVHjzdnpQjbMDn-PO0CIc4AllQQPEpH8dSo8',
+//     'MfcWJgngTpi3MnT683zSlrH_H0y24wP3Kt9Rthy8QeI',
+//     'VYtreO_HjCyak7L2DmooBme4Ihi716-3_Gj3dlSq5RQ',
+//   ]
+//   let res = [];
 
-  for (let i = 0; i < txs.length; i++) {
-    const tx = txs[i];
-    let ret = {tx: tx, k_v: {}};
-    const info = await arweave.transactions.get(tx);
-    info.get('tags').forEach(tag => {
-      const key = tag.get('name', {decode: true, string: true});
-      const value = tag.get('value', {decode: true, string: true});
-      ret.k_v[key] = value;
-    });
-    res.push(ret);
-  }
+//   for (let i = 0; i < txs.length; i++) {
+//     const tx = txs[i];
+//     let ret = {tx: tx, k_v: {}};
+//     const info = await arweave.transactions.get(tx);
+//     info.get('tags').forEach(tag => {
+//       const key = tag.get('name', {decode: true, string: true});
+//       const value = tag.get('value', {decode: true, string: true});
+//       ret.k_v[key] = value;
+//     });
+//     res.push(ret);
+//   }
 
-  console.log('txInfo: ', res);
-}
+//   console.log('txInfo: ', res);
+// }
 
 export async function connectWallet(walletJwk) {
   thetARContract.connect(walletJwk);

@@ -8,7 +8,7 @@ export const OrderList = (props) => {
   function onRefreshButtonClicked() {
     setRefreshDisabled(true);
     readState(); //debug
-    txInfo(); //debug
+    // txInfo(); //debug
     orderInfo(parseInt(props.pairId)).then(async ret => {
       console.log('onRefreshButtonClicked, orderInfo: ', ret);
       setRefreshDisabled(false);
