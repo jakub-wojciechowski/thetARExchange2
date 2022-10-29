@@ -1,0 +1,121 @@
+.centerButton {
+  display:flex;
+  justify-content:center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.centerResult {
+  display:flex;
+  justify-content:center;
+}
+
+.darkRow {
+	text-align: left;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: rgb(75, 89, 105);
+}
+
+.submitButtonSmall {
+	width: 5rem;
+	border: 1px solid;
+	color: rgb(75, 89, 105);
+	border-radius: 99999px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-radius: 99999px;
+	background-color: rgb(80, 162, 255);
+	color: rgb(27, 39, 51);
+	cursor: pointer;
+	border: none;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.submitButtonSmall:disabled {
+	width: 5rem;
+	border: 1px solid;
+	border-radius: 99999px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-radius: 99999px;
+	background-color: rgb(75, 89, 105);
+	color: rgb(27, 39, 51);
+	border: none;
+	cursor: not-allowed;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.submitButtonMedium {
+	width: 7rem;
+	border: 1px solid;
+	color: rgb(75, 89, 105);
+	border-radius: 99999px;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	border-radius: 99999px;
+	background-color: rgb(80, 162, 255);
+	color: rgb(27, 39, 51);
+	cursor: pointer;
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.submitButtonMedium:disabled {
+	width: 7rem;
+	border: 1px solid;
+	color: rgb(75, 89, 105);
+	border-radius: 99999px;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	border-radius: 99999px;
+	background-color: rgb(75, 89, 105);
+	color: rgb(27, 39, 51);
+	cursor: not-allowed;
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.submitButtonLarge {
+	width: 10rem;
+	border: 1px solid;
+	color: rgb(75, 89, 105);
+	border-radius: 99999px;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	border-radius: 99999px;
+	background-color: rgb(80, 162, 255);
+	color: rgb(27, 39, 51);
+	cursor: pointer;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.submitButtonLarge:disabled {
+	width: 10rem;
+	border: 1px solid;
+	color: rgb(75, 89, 105);
+	border-radius: 99999px;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	border-radius: 99999px;
+	background-color: rgb(75, 89, 105);
+	color: rgb(27, 39, 51);
+	cursor: not-allowed;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+}

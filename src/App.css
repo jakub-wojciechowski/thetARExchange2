@@ -1,0 +1,281 @@
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 55rem;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(27, 39, 51);
+
+}
+
+.menuText {
+  color:rgb(95, 95, 95);
+}
+
+:root {
+  --color-text: rgb(236, 233, 230);
+}
+
+header {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-bottom: solid 1px rgb(39, 50, 62);
+  color: rgb(236, 233, 230);
+}
+
+main {
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-color: rgb(39, 50, 62);
+  min-height: 100vh;
+  /* margin-left: 16rem; */
+}
+
+/* aside {
+  position: fixed;
+  width: 0rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+} */
+
+.item {
+	padding-top: 1rem;
+  padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 2rem;
+	border-bottom: solid 1px rgb(39, 50, 62);
+	color: rgb(219, 216, 213);
+}
+
+.layout {
+	display: flex;
+	flex-direction: row;
+}
+
+.itemRow {
+  font-size: large;
+	font-weight: 600;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	margin-left: 0.5rem;
+  color: rgb(111, 122, 136);
+}
+
+.pairId {
+	display: flex;
+	background-color: transparent;
+	color: rgb( 80, 162, 255);
+	font-weight: 500;
+	width: 100%;
+  height: 2rem;
+	font-size: x-large;
+	text-decoration: none;
+}
+
+.pairId:hover {
+	text-decoration: underline;
+}
+
+.instruction {
+  border: solid 1px;
+  border-radius: 20px;
+	margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgb(111, 122, 136);
+}
+
+.center {
+  display:flex;
+  justify-content:center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: transparent;
+	color: rgb(111, 122, 136);
+	font-weight: 400;
+  height: 2rem;
+	font-size: x-large;
+}
+
+.PairDetailTitle {
+  display:flex;
+  justify-content:center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: transparent;
+	color: rgb( 80, 162, 255);
+	font-weight: 400;
+  height: 2rem;
+	font-size: 2rem;
+}
+
+.PairDetailInfo {
+  display:flex;
+  justify-content:center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: transparent;
+	color: rgb(111, 122, 136);
+	font-weight: 400;
+  height: 1rem;
+	font-size: 1rem;
+}
+
+.MakeOrderLine {
+  display:flex;
+  justify-content:center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: transparent;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
+.blue {
+	color: rgb(80, 162, 255);
+}
+
+.gray {
+	color: rgb(111, 122, 136);
+}
+
+.green {
+	color: rgb(29, 179, 10);
+}
+
+.red {
+	color: rgb(179, 3, 3);
+}
+
+.select {
+  padding-left: 0.5rem;
+	font-size: 1rem;
+	height: 2rem;
+	width: 20%;
+	background-color: transparent;
+	border-width: 0px;
+	resize: none;
+	outline: none;
+  color: rgb(75, 89, 105);
+}
+
+.textInput {
+	width: 20%;
+  font-size: 1rem;
+  font-family: inherit;
+	background-color: transparent;
+	border-width: 0px;
+	resize: none;
+	outline: none;
+  border: 1px solid;
+  color: rgb(75, 89, 105);
+  border-radius: 9px;
+  position: 1rem relative;
+}
+
+.refreshButton {
+	width: 5rem;
+	border: 1px solid;
+	color: rgb(75, 89, 105);
+	border-radius: 99999px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-radius: 99999px;
+	background-color: rgb(80, 162, 255);
+	color: rgb(27, 39, 51);
+	cursor: pointer;
+	border: none;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.refreshButton:disabled {
+	width: 5rem;
+	border: 1px solid;
+	border-radius: 99999px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-radius: 99999px;
+	background-color: rgb(75, 89, 105);
+	color: rgb(27, 39, 51);
+	border: none;
+	cursor: not-allowed;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.ordersText {
+  display:flex;
+  justify-content:center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: transparent;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
+table {
+  color: rgb(80,162,255);
+  border-collapse: collapse;
+  width: 90%;
+  margin: 2rem;
+}
+
+table, th, td {
+  border: 1px solid rgb(75, 89, 105);
+}
+
+.tableTitle {
+  text-align: center;
+  margin: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: rgb(80,162,255);
+  font-weight: 600;
+  width: 20%;
+}
+
+.tableCol {
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: rgb(75, 89, 105);
+}
+
+.cancelOrder {
+  text-align: right;
+  text-decoration: underline;
+  cursor: pointer;
+}

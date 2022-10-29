@@ -1,0 +1,13 @@
+.centerResult {
+  display:flex;
+  justify-content:center;
+}
+
+.darkRow {
+	text-align: left;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: rgb(75, 89, 105);
+}
