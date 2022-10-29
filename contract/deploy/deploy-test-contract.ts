@@ -43,7 +43,7 @@ const calcHash = (string) => {
     decimals: 2,
     totalSupply: 20000,
     balances: {
-      'moGnMJDTFyXZp0kuFKxqI57TlivDSaCk4UfsjVnD97U': 10000,
+      [walletAddress]: 10000,
     },
     allowances: {},
     settings: null,
@@ -92,7 +92,7 @@ const calcHash = (string) => {
     decimals: 2,
     totalSupply: 20000,
     balances: {
-      'moGnMJDTFyXZp0kuFKxqI57TlivDSaCk4UfsjVnD97U': 10000,
+      [walletAddress]: 10000,
     },
     allowances: {},
     settings: null,

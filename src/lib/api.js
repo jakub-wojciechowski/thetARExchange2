@@ -13,7 +13,7 @@ const thetARContractAddress = 'xJ9SXNlziAAp-RrOMUKLhHDItVYiPuLSRAbtg2Fv5k4';
 const feeWalletAdrress = 'JJFq7UFAD-7P4oRV9O6hhmAEeLenrprJja6bxNisIeA';
 
 
-const warp = WarpFactory.forLocal(1984, undefined, {inMemory: true});
+const warp = WarpFactory.forLocal(1984, undefined, {inMemory: false});
 // const warp = WarpFactory.forTestnet();
 // const warp = WarpFactory.forMainnet();
 const arweave = warp.arweave;

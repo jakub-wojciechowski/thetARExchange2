@@ -40,9 +40,9 @@ export const PairDetail = (props) => {
     tryGetWalletAddress();
   }, []);
 
-  React.useEffect(async () => {
-    await fetchBalance();
-  }, [pair&&walletAddress]);
+  // React.useEffect(async () => {
+  //   await fetchBalance();
+  // }, [pair&&walletAddress]);
 
   async function fetchBalance() {
     const arBalanceRet = await getBalance('ar');
